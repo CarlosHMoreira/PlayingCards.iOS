@@ -64,6 +64,8 @@
 			children = (
 				A87E07D42A6F71F4008469FC /* ViewController.swift */,
 				A87E07EA2A721734008469FC /* PlayingCardView.swift */,
+				A87E07E62A6F7351008469FC /* PlayingCard.swift */,
+				A87E07E82A6F7C94008469FC /* PlayingCardDeck.swift */,
 				A87E07E52A6F7295008469FC /* Supporting Files */,
 				A87E07D62A6F71F4008469FC /* Main.storyboard */,
 				A87E07D92A6F71F5008469FC /* Assets.xcassets */,
@@ -77,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				A87E07D02A6F71F4008469FC /* AppDelegate.swift */,
-				A87E07E62A6F7351008469FC /* PlayingCard.swift */,
-				A87E07E82A6F7C94008469FC /* PlayingCardDeck.swift */,
 				A87E07D22A6F71F4008469FC /* SceneDelegate.swift */,
 			);
 			path = "Supporting Files";

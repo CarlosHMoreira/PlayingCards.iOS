@@ -17,17 +17,29 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view opaque="NO" contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="MZz-nZ-ZK0" customClass="PlayingCardView" customModule="PlayingCard" customModuleProvider="target">
-                                <rect key="frame" x="16" y="59" width="361" height="759"/>
+                                <rect key="frame" x="16" y="149.66666666666669" width="361" height="577.66666666666652"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" priority="750" constant="800" id="gij-4v-rQr"/>
+                                    <constraint firstAttribute="width" secondItem="MZz-nZ-ZK0" secondAttribute="height" multiplier="5:8" id="rvA-7x-cI1"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rank">
+                                        <integer key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="NO"/>
+                                </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                         <constraints>
-                            <constraint firstItem="MZz-nZ-ZK0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="6cQ-LH-ERf"/>
-                            <constraint firstItem="MZz-nZ-ZK0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="7F2-7M-gC5"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="MZz-nZ-ZK0" secondAttribute="bottom" id="gWv-d9-NcA"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MZz-nZ-ZK0" secondAttribute="trailing" constant="16" id="kJI-LS-AJI"/>
+                            <constraint firstItem="MZz-nZ-ZK0" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="6cQ-LH-ERf"/>
+                            <constraint firstItem="MZz-nZ-ZK0" firstAttribute="top" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="7F2-7M-gC5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="MZz-nZ-ZK0" secondAttribute="bottom" constant="16" id="gWv-d9-NcA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="MZz-nZ-ZK0" secondAttribute="trailing" constant="16" id="kJI-LS-AJI"/>
+                            <constraint firstItem="MZz-nZ-ZK0" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="rS3-uz-618"/>
+                            <constraint firstItem="MZz-nZ-ZK0" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="wNy-ZO-vTE"/>
                         </constraints>
                     </view>
                 </viewController>
