@@ -15,6 +15,7 @@
 		A87E07DD2A6F71F5008469FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A87E07DB2A6F71F5008469FC /* LaunchScreen.storyboard */; };
 		A87E07E72A6F7351008469FC /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87E07E62A6F7351008469FC /* PlayingCard.swift */; };
 		A87E07E92A6F7C94008469FC /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87E07E82A6F7C94008469FC /* PlayingCardDeck.swift */; };
+		A87E07EB2A721734008469FC /* PlayingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87E07EA2A721734008469FC /* PlayingCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A87E07DE2A6F71F5008469FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A87E07E62A6F7351008469FC /* PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
 		A87E07E82A6F7C94008469FC /* PlayingCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardDeck.swift; sourceTree = "<group>"; };
+		A87E07EA2A721734008469FC /* PlayingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				A87E07D42A6F71F4008469FC /* ViewController.swift */,
+				A87E07EA2A721734008469FC /* PlayingCardView.swift */,
 				A87E07E52A6F7295008469FC /* Supporting Files */,
 				A87E07D62A6F71F4008469FC /* Main.storyboard */,
 				A87E07D92A6F71F5008469FC /* Assets.xcassets */,
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A87E07D52A6F71F4008469FC /* ViewController.swift in Sources */,
+				A87E07EB2A721734008469FC /* PlayingCardView.swift in Sources */,
 				A87E07D12A6F71F4008469FC /* AppDelegate.swift in Sources */,
 				A87E07E92A6F7C94008469FC /* PlayingCardDeck.swift in Sources */,
 				A87E07E72A6F7351008469FC /* PlayingCard.swift in Sources */,
